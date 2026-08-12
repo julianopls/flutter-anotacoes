@@ -18,7 +18,7 @@ class _SplashState extends State<Splash> {
           mainAxisAlignment: MainAxisAlignment.center,
           spacing: 40,
           children: [
-            Image.asset("./assets/icone.png", width: 200),
+            Image.asset("assets/icon.png", width: 200),
             ElevatedButton(
               onPressed: () => Navigator.push(
                 context,
